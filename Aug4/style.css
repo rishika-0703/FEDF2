@@ -1,0 +1,74 @@
+.page1 {
+    background-color: rgb(177, 176, 177);
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px 15px 10px 15px; /*length*/
+    padding: 20px; /*adds space bw text and border/margin*/
+}
+.page1 h2 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page1 p {
+    text-align: justify;
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page2 {
+    width: 500px; /*sh
+    ows the width of how long the p should be seen*/
+    margin:auto;
+    border: 2px solid green;
+}
+.page2 h2 {
+    text-align: center;
+    color: blue;
+    font-family: cursive;
+}
+.page2 p {
+    text-align: justify;
+    color: aqua;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-color: aliceblue;
+    padding: 7px;
+    text-align: center;
+}
+header h1{
+    color: brown;
+    border: 7px solid blue;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+nav ul{
+    list-style-type: none;
+    background-color: chocolate;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+nav li{
+    float: left;
+}
+nav a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+nav a:hover{
+   color: black;
+}
+footer{
+    background-color: yellow;
+    color: violet;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
